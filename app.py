@@ -40,7 +40,7 @@ with tab1:
         results = model(image)
         res_image = results[0].plot()[..., ::-1]
         st.image(
-            res_image, caption="Detected Currency Notes", use_container_width=True
+            res_image, caption="Detected Food Items", use_container_width=True
         )
 
 with tab2:
