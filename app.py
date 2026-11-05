@@ -3,7 +3,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 
-st.title("Bahraini Currency Recognition")
+st.title("Bahraini Food Detection App")
 
 
 @st.cache_resource
